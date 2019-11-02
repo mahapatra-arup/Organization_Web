@@ -1,0 +1,5 @@
+Django==2.2.6
+pip==19.2.3
+pytz==2019.3
+setuptools==41.2.0
+sqlparse==0.3.0

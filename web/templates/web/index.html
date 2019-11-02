@@ -1,0 +1,22 @@
+﻿
+{% extends "web/layout.html" %}
+
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+     {% block content %}
+    {% include 'web/PartialView/Home.html' %}
+     {% include 'web/PartialView/AboutUs.html' %}
+     {% include 'web/PartialView/Portfolio.html' %}
+    {% include 'web/PartialView/Pricing.html' %}
+     {% include 'web/PartialView/Team.html' %}
+     {% include 'web/PartialView/Blog.html' %}
+     {% include 'web/PartialView/Contact.html' %}
+  {% endblock %}
+
+
+</body>
+</html>
