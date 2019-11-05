@@ -37,14 +37,6 @@
     <Compile Include="manage.py" />
     <Compile Include="CompanyPyWeb\__init__.py" />
     <Compile Include="CompanyPyWeb\wsgi.py" />
-    <Compile Include="polls\admin.py" />
-    <Compile Include="polls\apps.py" />
-    <Compile Include="polls\migrations\__init__.py" />
-    <Compile Include="polls\models.py" />
-    <Compile Include="polls\tests.py" />
-    <Compile Include="polls\urls.py" />
-    <Compile Include="polls\views.py" />
-    <Compile Include="polls\__init__.py" />
     <Compile Include="web\admin.py" />
     <Compile Include="web\apps.py" />
     <Compile Include="web\migrations\__init__.py" />
@@ -56,10 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CompanyPyWeb\" />
-    <Folder Include="polls\" />
-    <Folder Include="polls\migrations\" />
-    <Folder Include="polls\templates\" />
-    <Folder Include="polls\templates\polls\" />
     <Folder Include="static\" />
     <Folder Include="static\assets\" />
     <Folder Include="static\assets\css\" />
@@ -85,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="libman.json" />
-    <Content Include="polls\templates\polls\index.html" />
     <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
